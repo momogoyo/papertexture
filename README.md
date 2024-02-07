@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img width="2408" alt="Image" src="https://github.com/HyunYuJin/me_blog/assets/38209966/52b28fca-c3a9-45a4-8fd3-375c6353ca0f">
+  <img width="2408" alt="Image" src="https://github.com/momogoyo/papertexture/assets/131684279/414c1bd8-a8f9-4acc-b872-d0838068ed66">
   <br>
 </p>
 
@@ -47,9 +47,8 @@ CKEditor5를 사용하여 포스트를 작성하는 기능
 <br>
 
 <!-- Stack Icon Refernces -->
-
-[react](https://github.com/HyunYuJin/me_blog/assets/38209966/0d79db06-d391-4a4d-83eb-91df6f150f67)
-[redux](https://github.com/HyunYuJin/me_blog/assets/38209966/ec4f4392-3116-44b5-8a83-316613eb7e39)
-[saga](https://github.com/HyunYuJin/me_blog/assets/38209966/f689c160-04ef-4906-a46a-5d5ad440d64a)
-[node](https://github.com/HyunYuJin/me_blog/assets/38209966/1af61d2d-3a31-4433-a4f4-f92aa0c9ea5f)
-[mongo](https://github.com/HyunYuJin/me_blog/assets/38209966/b9978654-96bb-46cf-83df-fd9f4504cbc0)
+[react]: https://github.com/momogoyo/papertexture/assets/131684279/db78a8ed-f771-417b-be84-7f9a59c3f4f9
+[redux]: https://github.com/momogoyo/papertexture/assets/131684279/2b10995e-b3cb-46ac-ac2b-aafdc1554ec2
+[saga]: https://github.com/momogoyo/papertexture/assets/131684279/f054d001-0628-4ec0-a8d3-0e4ddb1eff1e
+[node]: https://github.com/momogoyo/papertexture/assets/131684279/a01b6c10-39e2-4b8b-865d-3ca841633dd0
+[mongo]: https://github.com/momogoyo/papertexture/assets/131684279/d346a194-3c88-4eef-ae6b-e538f34efecd
