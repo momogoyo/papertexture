@@ -2,11 +2,9 @@
 
 <p align="center">
   <br>
-  <img src="./images/common/logo-sample.jpeg">
+  <img width="2408" alt="Image" src="https://github.com/HyunYuJin/me_blog/assets/38209966/52b28fca-c3a9-45a4-8fd3-375c6353ca0f">
   <br>
 </p>
-
-목차
 
 ## 프로젝트 소개
 
@@ -19,17 +17,13 @@
 블로그 내에서 포스트를 작성할 수 있게 CKEditor5를 사용했고 직접 서버와 DB도 구축해 볼 수 있었던 프로젝트 입니다.
 </p>
 
-<p align="center">
-GIF Images
-</p>
-
 <br>
 
 ## 기술 스택
 
-|   React   |   Redux   |   Redux-Saga   |    NodeJS   |    Mongo DB   |
-| :-------: | :-------: |   :--------:   |  :-------:  |  :----------: |
-| ![react]  | ![redux]  |    ![redux]    |   ![node]   |   ![mongodb]  |
+| React    | Redux    | Redux-Saga | NodeJS  | Mongo DB |
+|----------|----------|------------|---------|----------|
+| ![react] | ![redux] | ![saga]    | ![node] | ![mongo] |
 
 <br>
 
@@ -54,8 +48,8 @@ CKEditor5를 사용하여 포스트를 작성하는 기능
 
 <!-- Stack Icon Refernces -->
 
-[react]: https://github.com/n0hack/readme-template/raw/main/images/stack/react.svg
-[redux]: https://www.svgrepo.com/show/303557/redux-logo.svg
-[reduxsaga]: https://cdn.worldvectorlogo.com/logos/redux-saga.svg
-[node]: https://github.com/n0hack/readme-template/raw/main/images/stack/node.svg
-[mongodb]: https://www.svgrepo.com/show/354090/mongodb.svg
+[react](https://github.com/HyunYuJin/me_blog/assets/38209966/0d79db06-d391-4a4d-83eb-91df6f150f67)
+[redux](https://github.com/HyunYuJin/me_blog/assets/38209966/ec4f4392-3116-44b5-8a83-316613eb7e39)
+[saga](https://github.com/HyunYuJin/me_blog/assets/38209966/f689c160-04ef-4906-a46a-5d5ad440d64a)
+[node](https://github.com/HyunYuJin/me_blog/assets/38209966/1af61d2d-3a31-4433-a4f4-f92aa0c9ea5f)
+[mongo](https://github.com/HyunYuJin/me_blog/assets/38209966/b9978654-96bb-46cf-83df-fd9f4504cbc0)
