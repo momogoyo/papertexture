@@ -1,0 +1,42 @@
+{
+  "name": "@momogoyo/papertexture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js --exec babel-node --ignore './client'",
+    "prebuild": "cd client && npm run build",
+    "build": "babel server --out-dir build",
+    "build:server": "babel server --out-dir build",
+    "standard": "standard && node my-tests.js"
+  },
+  "keywords": ["react", "redux", "redux-saga", "mongoose", "express", "papertexture"],
+  "author": "momogoyo",
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "aws-sdk": "^2.836.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "history": "^5.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.14",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "sass-loader": "^10.1.1",
+    "path": "^0.12.7",
+    "node-sass": "^4.14.1",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.18.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  }
+}

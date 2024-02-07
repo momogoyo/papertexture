@@ -1,0 +1,205 @@
+// css 보다 더 능동적으로 css 파일을 만들어준다.
+
+textarea:hover, input:hover, textarea:active, input:active, textarea:focus, input:focus, 
+button:focus, button:active, button:hover, label:focus, .btn:active, .btn.active {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+// #site-header
+.header-banner {
+    margin: 0;
+}
+
+// .header-location {
+//     display: flex;
+// }
+
+// .navbar
+.navbar {
+    padding: 0;
+}
+.navbar-toggler {
+    background-image: url(../assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    margin: 0.5rem;
+}
+
+// Row
+.row.intro-wrap {
+    margin-top: 4rem;
+}
+
+.row {
+    margin: 0;
+}
+
+// .card
+.card {
+    border: 0;
+    box-shadow: 0;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 0;
+    padding-top: 1rem;
+}
+
+// .card-image
+.card-img-top {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.viewContentBadge {
+    background-color: rgba(214, 194, 176, 1);
+}
+
+// #site-footer
+.footer-items .footer-copy {
+    flex: 0 0 40%;
+    max-width: 40%;
+    width: 40%;
+}
+
+.footer-items .footer-location {
+    flex: 0 0 34%;
+    max-width: 34%;
+    width: 34%;
+}
+
+.footer-items .footer-ed {
+    flex: 0 0 26%;
+    max-width: 26%;
+    width: 26%;
+}
+
+// CKEditor5 Setting
+.ck {
+    .ck-editor {
+        min-width: 100%;
+    }
+}
+
+.ck-editor__editable {
+    max-height: 80rem;
+    min-height: 20rem;
+    min-width: 100rem;
+}
+
+.ck-editor__editable_inline {
+    max-height: 80rem;
+    min-height: 20rem;
+    min-width: 100%;
+}
+
+// .searchBar
+.mySearch {
+  width: 100%;
+}
+
+input.searchBar {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    background: transparent;
+    color: #333333;
+    font-size: 15px;
+    height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+input.searchBar:focus {
+    border: 0;
+    background: rgba(214, 194, 176, 0.6);
+}
+
+// category
+.categoryMenu {
+    width: 100%;
+}
+.categoryBtn {
+    border-radius: 0.6rem;
+    background: transparent;
+    border: 1px solid rgba(43, 43, 43, 1);
+    color: rgba(43, 43, 43, 1);
+    padding: 0.3rem;
+    line-height: 1;
+    transition: all .5s;
+}
+
+.categoryBtn:hover {
+    background:rgba(214, 194, 176, 0.6);
+    color: rgba(43, 43, 43, 1);
+    border: 1px solid transparent;
+}
+
+.categoryBadge {
+    background: transparent;
+    color: rgba(43, 43, 43, 1);
+    font-size: 1.1rem;
+}
+
+// Spinner
+.spinner-wrap {
+    background: #F2CBBD !important;
+    padding: 1rem 2rem;
+    border: 0;
+    font-size: 2rem;
+}
+
+// Login Modal
+.modal-title {
+    font-weight: 600;
+}
+
+.modal-content {
+    background-color:rgba(244, 242, 239, 1);
+    color: rgba(43, 43, 43, 1);
+}
+
+.loginForm-wrap input, .registerForm-wrap input {
+    width: 100%;
+    border: 1px solid rgba(43, 43, 43, 1);
+    background: transparent;
+    color: #333333;
+    font-size: 15px;
+    height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .5s;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.loginForm-wrap input:focus, .registerForm-wrap input:focus {
+    border: 0;
+    background: rgba(214, 194, 176, 0.6);
+}
+
+.login-Btn, .register-Btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: rgba(214, 194, 176, 1);
+    border: 1px solid transparent;
+    transition: all 0.6s;
+}
+
+.login-Btn:hover, .register-Btn:hover {
+    background: transparent;
+    color: rgba(43, 43, 43, 1);
+    border: 1px solid rgba(43, 43, 43, 1);
+}
